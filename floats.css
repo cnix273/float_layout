@@ -14,7 +14,7 @@ header {
   padding: 20px;
   margin-bottom: 20px;
   color: #333;
-  background: #FFA500;
+  background: gray;
 }
 
 section {
@@ -63,4 +63,8 @@ aside {
 }
 
 footer {
+  padding: 20px;
+  margin-top: 20px;
+  color: #333;
+  background: gray;
 }
