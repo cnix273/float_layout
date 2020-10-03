@@ -21,12 +21,36 @@ section {
 }
 
 #left {
+  float: left;
+  width: 33%;
+  padding: 20px;
+  margin-bottom: 20px;
+  color: white;
+  background: #666
 }
 
 #middle {
+  float: left;
+  padding: 20px;
+  width: 33%;
+  margin-bottom: 20px;
+  color: white;
+  background: #888
 }
 
 #right {
+  float: left;
+  width: 33%;
+  padding: 20px;
+  margin-bottom: 20px;
+  color: white;
+  background: #666
+}
+
+.clearfix::after {
+  content: " ";
+  display: block;
+  clear: both;
 }
 
 #full {
